@@ -1,0 +1,193 @@
+/*mobile & tablet 1023px */
+
+@media(max-width:1023px) {
+    .section1 {
+        height: 410px;
+    }
+    .btn.brand__content_button {
+        margin-top: 30px;
+    }
+    .container {
+        margin-top: 400px;
+        padding: 160px 0;
+    }
+    .container_tag__header {
+        margin-bottom: 0;
+    }
+    .menu__header_item--drop-bars {
+        display: block;
+        padding: 10px 16px;
+        align-items: center;
+    }
+    .menu__header_item--drop-position {
+        display: none;
+    }
+    /* container 2 */
+    .container_video::before {
+        top: -8%;
+    }
+    .gallery_click>i {
+        right: 40%;
+        top: 35%;
+    }
+    /* container3 */
+    .container_card__layout:last-child {
+        margin-top: 20px;
+    }
+    /* container4 */
+    .container4::before {
+        top: -4%;
+    }
+    .container_card__img-layout:last-child {
+        margin-top: 20px;
+    }
+    /* container5 */
+    .container5 {
+        padding: 100px 0;
+    }
+    .container_theme__item {
+        margin: 0 30px;
+    }
+    .container5::after {
+        bottom: -16%;
+    }
+    /* container6 */
+    .btn.btn_form {
+        margin: 0 auto;
+    }
+    /* container7 */
+    .container_cate__brand {
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    .container_cate__info {
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    .container_cate__info-list--item---link {
+        justify-content: center;
+    }
+    .btn.container_cate__info-list--btn {
+        width: 292px;
+    }
+    .container_cate__brand-list {
+        padding: 0 50px;
+    }
+    /* footer */
+     :is(.footer_text__left, .footer_text__right) {
+        text-align: center;
+    }
+    .footer_text__right>p {
+        justify-content: center;
+        padding-top: 30px;
+    }
+    /* button action */
+    .menu__header_item--button-action {
+        align-items: center;
+    }
+    .button-action {
+        margin: 0;
+        padding: 14px;
+    }
+    .menu__header_item--button-action>.button-action>p {
+        display: none;
+    }
+    .menu__header_item--button-action>.button-action>i {
+        padding: 0;
+    }
+    /* content */
+    .brand__content_center--title {
+        font-size: 4.3rem;
+        line-height: 5rem;
+    }
+    .brand__content {
+        top: 40vh;
+    }
+    .hide_on_tablet {
+        display: none;
+    }
+}
+
+
+/* tablet */
+
+@media(min-width:740px) and (max-width:1024px) {}
+
+
+/* mobile */
+
+@media(max-width:740px) {
+    .container {
+        padding: 60px 0;
+    }
+    .brand__content_center--title {
+        font-size: 3rem;
+    }
+    /* container 2 */
+    .container_video::before {
+        display: none;
+    }
+    .gallery_click>i {
+        font-size: 5rem;
+        top: 30%;
+    }
+    /* container3 */
+    .container3 {
+        padding: 60px 0;
+    }
+    .container_card__header>h1 {
+        font-size: 3rem;
+    }
+    /* container4 */
+    .container4 {
+        padding: 60px 0;
+    }
+    .container4::before {
+        display: none;
+    }
+    .container__card_img-header {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .btn.container__card_img-header--btn {
+        margin: 0 auto;
+    }
+    .container_card__img-layout {
+        margin-top: 40px;
+    }
+    .container_card__img-layout--text::before,
+    .container_card__img-layout--text::after,
+    .container_card__img-layout--text3::before,
+    .container_card__img-layout--text3::after {
+        display: none;
+    }
+    /* conntainer5 */
+    .container_theme__item {
+        flex-direction: column;
+    }
+    .container_theme__item-layout {
+        margin: 20px 0;
+    }
+    .container5::after {
+        display: none;
+    }
+    /* container6 */
+    .container6 {
+        padding: 60px 0;
+    }
+    .container_form__header>p {
+        text-align: center;
+    }
+    /* container7 */
+    .container7 {
+        padding: 60px 0;
+    }
+    /* bars menu & search layput */
+    .nav__search,
+    .nav__bars {
+        width: 100%;
+    }
+    .nav__search_body--text {
+        font-size: 3.4rem;
+    }
+}

@@ -1,0 +1,213 @@
+:root {
+    --primary-t-color: #2f323a;
+    --secondary-color: #E0040B;
+    --border: rgba(255, 255, 255, 0.25);
+    --primary-color: #dd1e4b;
+    --primary-p-color: #6f6f6f;
+    --primary-bg-color: #f5f5f5;
+    --primary-bg-color-2: #eeeeee;
+    --primary-bg-color-3: #e5e5e5;
+    --section-1-bg-color: #f5f5f5;
+    --section-2-bg-color: #eeeeee;
+    --section-3-bg-color: #111111;
+    --dark: #343a40;
+    --dark-2: #191919;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-2: #7a6f6f;
+    /* font */
+    --h1-font: 'Gilroy', sans-serif;
+    --h-dropmenu: 48px;
+}
+
+
+/* background: -webkit-linear-gradient(
+45deg
+, var(--secondary-color) 15%, var(--primary-color) 65%); */
+
+* {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 80%;
+    line-height: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+form {
+    width: 100%;
+    margin: 0 10px;
+}
+
+
+/* animation hover */
+
+@keyframes dropMenu {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.25;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.75;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.main {
+    height: 120px;
+}
+
+
+/* Css button */
+
+.btn {
+    display: flex;
+    text-decoration: none;
+    margin: 0 auto;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+    border: none;
+    align-items: center;
+    padding: 0 24px;
+    justify-content: space-between;
+    height: 44px;
+}
+
+.btn.brand__content_button {
+    width: 176px;
+    margin-top: 68px;
+}
+
+.btn.nav__search_body--search {
+    width: 134px;
+    margin: 20px 0 0 0;
+}
+
+.btn.container_card__layout-btn {
+    justify-content: center;
+    width: 170px;
+    height: 46px;
+    color: var(--white);
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+.btn.container__card_img-header--btn {
+    justify-content: center;
+    width: 140px;
+    height: 46px;
+    color: var(--white);
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin: 30px 0 0 0;
+}
+
+.btn.btn_form {
+    color: var(--white);
+    width: 92px;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin: 0;
+    justify-content: start;
+}
+
+.btn.container_cate__info-list--btn {
+    background-color: inherit;
+    border-top: 2px solid var(--secondary-color);
+    border-bottom: 2px solid var(--primary-color);
+    background-image: linear-gradient(var(--secondary-color), var(--primary-color)), linear-gradient(var(--secondary-color), var(--primary-color));
+    background-size: 2px 100%;
+    background-position: 0 0, 100% 0;
+    background-repeat: no-repeat;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    color: var(--white);
+    margin-top: 22px;
+}
+
+.container_cate__info-list--btn:hover {
+    background: repeat;
+    border: none;
+    background-image: linear-gradient( to left, var(--primary-color), var(--secondary-color));
+}
+
+.btn.container_cate__info-list--btn>i {
+    margin: 0;
+    padding-right: 30px;
+}
+
+.btn.container__card_img-header--btn:hover {
+    background-image: linear-gradient(to right, var(--secondary-color), var(--primary-color));
+}
+
+.container__card_img-header--btn>i {
+    padding-right: 6px;
+}
+
+.nav__search_body--search>i {
+    margin: 0;
+}
+
+.nav__search_body--search>h4 {
+    font-size: 1.1rem;
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.nav__search_body--search:hover {
+    background-image: linear-gradient(to right, var(--secondary-color), var(--primary-color));
+    cursor: pointer;
+}
+
+.brand__content_button>p,
+i {
+    margin: 0 auto;
+    font-size: 1.3rem;
+    color: var(--white);
+}
+
+.brand__content_button>i {
+    padding-bottom: 4px;
+}
+
+.brand__content_button:hover {
+    background-image: linear-gradient(to right, var(--secondary-color), var(--primary-color));
+}
+
+
+/* Overlay */
+
+:is(.nav__search_overlay, .nav__bars_overlay) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 149;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
