@@ -190,4 +190,20 @@
     .nav__search_body--text {
         font-size: 3.4rem;
     }
+    /* modal video */
+    .modal__video_category {
+        padding-top: 50px;
+    }
+    .modal__video_category-item {
+        display: flex;
+    }
+    .modal__video_category-item--click {
+        display: none;
+    }
+    .modal__video_category-item--click:last-child {
+        display: block;
+    }
+    .video__layout>h3 {
+        padding-top: 30px;
+    }
 }
