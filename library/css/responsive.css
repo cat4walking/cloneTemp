@@ -99,6 +99,7 @@
     .brand__content_center--title {
         font-size: 4.3rem;
         line-height: 5rem;
+        letter-spacing: 1px;
     }
     .brand__content {
         top: 40vh;
@@ -118,7 +119,7 @@
 
 @media(max-width:740px) {
     .container {
-        padding: 60px 0;
+        padding: 0;
     }
     .brand__content_center--title {
         font-size: 3rem;
