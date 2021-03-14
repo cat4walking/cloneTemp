@@ -20,11 +20,6 @@
     --h-dropmenu: 48px;
 }
 
-
-/* background: -webkit-linear-gradient(
-45deg
-, var(--secondary-color) 15%, var(--primary-color) 65%); */
-
 * {
     box-sizing: inherit;
     padding: 0;
@@ -37,6 +32,7 @@ html {
     line-height: 1.6rem;
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 form {
